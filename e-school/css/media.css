@@ -1,0 +1,245 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+     /* header start*/
+     header {
+         padding: 0;
+     }
+
+     .logo {
+         width: 160px;
+     }
+
+     .btn-sign {
+         padding: 8px 26px;
+     }
+
+     .menu ul li a {
+         padding: 0;
+         margin-bottom: 6px;
+     }
+
+     /* header end*/
+     /* feature start */
+    .c-padd {
+        padding: 60px;
+    }
+    .s_feature {
+        margin-top: 24px;
+        padding: 50px 0 45px;
+    }
+    /* coures start */
+    .sm-padd{
+        padding: 0px;
+    }
+    .c-item{
+        margin: 30px 0 0;
+        padding: 24px 20px 20px;
+    }
+    .ch2-text{
+        font-size: 22px;
+    }
+    .cli:not(:last-child){
+        margin-right: 0px;
+    }
+    .f-left ul li img, .f-right ul li img{
+        width: 20px;
+    }
+    .f-left ul li span, .f-right ul li span{
+        font-size: 14px;
+    }
+    .btn-co{
+        margin: 0 0 30px;
+    }
+    /* course end */
+    /* Testimonial start */
+    .testimony{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .t_img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .t_text{
+        text-align: center;
+    }
+    /* Testimonial end */
+    /* footer top start */
+    .footer-top{
+        padding: 55px 0 40px;
+    }
+    .ft-details{
+        margin-bottom: 20px;
+    } 
+    .ft-details p{
+        padding-right: 85px;
+    } 
+    /* footer top end */
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+     /* header start*/
+     header {
+         padding: 0;
+     }
+
+     .logo {
+         width: 180px;
+     }
+
+     .menu ul li a {
+         padding: 0 10px;
+         margin-bottom: 5px;
+     }
+
+     /* header end*/
+    /* feature start */
+    .c-padd {
+        padding: 60px;
+    }
+    .s_feature {
+        margin-top: 24px;
+    }
+    /* Testimonial start */
+    .testimony{
+        padding-bottom: 50px;
+    }
+    .t_img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+    .t_text{
+        text-align: center;
+    }
+    /* Testimonial end */
+    /* footer top start */
+    .ft-details p{
+        padding-right: 130px;
+    }
+    .footer-top{
+        padding: 55px 0 40px;
+    }
+    .ft-details{
+        margin-bottom: 20px;
+    }
+    /* footer top end */
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     /* header start*/
+     header {
+         padding: 6px 0;
+     }
+
+     .menu ul li a {
+         padding: 0 10px;
+         margin-bottom: 5px;
+     }
+
+     /* header end*/
+     /* feature start */
+     .c-padd {
+        padding: 80px;
+    }
+      .s_feature {
+        margin-top: 24px;
+    }
+    .c-item{
+        margin: 30px 50px 0;
+    }
+    /* footer top start */
+    .ft-details p{
+        padding-right: 50px;
+    }
+     /* footer top end */
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+     /* banner start*/
+     .s-con {
+         padding-top: 6px;
+     }
+
+     .b-ht {
+         font-size: 37px;
+         width: 326px;
+         line-height: 47px;
+     }
+
+     .b-ht span {
+         font-size: 37px;
+         line-height: 46px;
+     }
+
+     /* banner end*/
+     /* course start */
+     .c-item{
+        padding: 24px 15px 30px;
+     }
+     .cli:not(:last-child){
+        margin-right: 3px;
+    }
+    .f-left ul li img, .f-right ul li img{
+        width: 20px;
+    }
+    .f-left ul li span, .f-right ul li span{
+        font-size: 14px;
+    }
+     /* course end */
+     /* footer top start */
+     .ft-details p{
+        padding-right: 50px;
+    }
+     /* footer top end */
+
+ }
+
+ /* Extra Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+     /*     banner start*/
+     .s-con {
+         padding-top: 5px;
+     }
+
+     .b-ht {
+         font-size: 41px;
+     }
+
+     .b-ht span {
+         font-size: 41px;
+     }
+
+     /* banner end*/
+ }
+
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) {
+
+     /*     banner start */
+     .b-ht {
+         width: 362px; 
+         }
+
+
+
+     /*     banner end*/
+
+
+
+
+
+
+ }
