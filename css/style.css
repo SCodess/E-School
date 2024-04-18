@@ -1,0 +1,324 @@
+/* google font strat */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* google font end */
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/* common css start */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* common css end */
+/* header css start */
+header {
+    background-color: #f0fff0;
+    padding: 15px 0;
+}
+
+.cnav {}
+
+.logo {
+    width: 200px;
+}
+
+.ntg:focus {
+    box-shadow: none;
+
+}
+
+.menu {}
+
+.menu ul li a {
+    color: #000 !important;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px !important;
+}
+
+.menu ul li a:hover {
+    color: #FD511A !important;
+}
+
+.btn-sign {
+    padding: 10px 28px;
+    margin-left: 15px;
+}
+
+.btn-c {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 33px;
+    background: #21B573;
+    color: #fff;
+}
+
+.btn-c:hover {
+    background-color: #FD511A;
+    color: #fff;
+}
+
+.btn-c:active {
+    background-color: #FD511A !important;
+    color: #fff !important;
+}
+
+/* header css end */
+/*banner start*/
+.banner {
+    background-color: #f0fff0;
+}
+
+.p-con {
+    /*    height: 80vh;*/
+}
+
+.c-con {
+    padding-bottom: 76px;
+}
+
+.s-con {}
+
+.banner-tx {
+    padding-top: 40px;
+    padding-right: 93px;
+
+}
+
+.b-pt {
+    color: #FD511A;
+    font-weight: 400;
+}
+
+.b-ht {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+
+
+}
+
+.b-ht span {
+    color: #21B573;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.b-p1 {
+    font-weight: 500;
+    line-height: 36px;
+    width: 405px;
+    height: 85px;
+}
+
+.btn-b {
+    width: 153px;
+    height: 43px;
+    border: 1px solid #000;
+}
+
+.btn-b:hover {
+    border: 1px solid #000;
+}
+
+.banner-img {
+    margin-left: 38px;
+    margin-top: 3px;
+}
+/* banner end */
+/* feature start */
+.c-padd{
+    padding-bottom: 100px;
+}
+.feature{
+    text-align: center;
+}
+.s_feature{
+    margin-top: 40px;
+    padding: 50px 0 50px;
+    border-radius: 10px;
+    background: #f0fff0; 
+    transition: 0.33s;
+}
+.s_feature:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.s_img{
+    margin-bottom: 20px;
+    width: 60px;
+    height: 70px;
+  
+}
+.s_img img{
+}
+.s_h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_p{
+    line-height: 24px;
+}
+/* feature end */
+/* course start */
+.course{
+
+}
+.sm-padd{
+    
+}
+.c-title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.c-item{
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+    margin: 60px 0 0;
+}
+.c-img{
+
+}
+.c-img img{
+    border-radius: 11px;
+}
+.c-text{
+    
+}
+.ch2-text{
+    margin: 20px 0 5px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.cp-text{
+    color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0 20pxpx;
+}
+.btn-co{
+    width: 135px;
+    height: 35px;
+    margin: 0 0 35px;
+}
+
+.c-footer{
+
+}
+.cli:not(:last-child){
+    margin-right: 5px;
+}
+.f-left ul li img, .f-right ul li img{
+    
+}
+.f-left ul li span, .f-right ul li span{
+    color: #585859;
+    line-height: 24px;
+}
+/* course end */
+/* Testimonial start */
+.testimony{
+	padding-bottom: 100px;
+}
+.t_item{
+	margin-top: 60px;
+}
+.t_img{
+    margin-left: 50px;
+}
+.t_img img{
+}
+.t_text{}
+.t_text p{}
+/* Testimonial end */
+
+
+/* footer top start */
+.footer_top{
+    background: #282531;
+    padding: 55px 0 55px;
+
+}
+.ft-details {
+
+}
+.ft-details p{
+    color: white;
+    padding-right: 130px;
+}
+.ft-links{
+
+} 
+.ft-links h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.ft-links ul li a{
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+    outline: none;
+}
+/* footer top end */
+/* footer start */
+.footer-b{
+    background: #282531;
+    padding: 20px 0 30px
+}
+.footer-b p{
+    color: #CDCDCD;
+    line-height: 30px; 
+}
+.footer-b p a{
+    text-decoration: none;
+    color: #CDCDCD;
+    line-height: 30px; 
+}
+
+
+
+
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
