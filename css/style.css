@@ -21,35 +21,24 @@ header {
     background-color: #f0fff0;
     padding: 15px 0;
 }
-
-.cnav {}
-
 .logo {
     width: 200px;
 }
-
 .ntg:focus {
     box-shadow: none;
-
 }
-
-.menu {}
-
 .menu ul li a {
     color: #000 !important;
     font-family: 'Poppins', sans-serif;
     padding: 0 20px !important;
 }
-
 .menu ul li a:hover {
     color: #FD511A !important;
 }
-
 .btn-sign {
     padding: 10px 28px;
     margin-left: 15px;
 }
-
 .btn-c {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -69,66 +58,46 @@ header {
     background-color: #FD511A !important;
     color: #fff !important;
 }
-
 /* header css end */
 /*banner start*/
 .banner {
     background-color: #f0fff0;
 }
-
-.p-con {
-    /*    height: 80vh;*/
-}
-
 .c-con {
     padding-bottom: 76px;
 }
-
-.s-con {}
-
 .banner-tx {
     padding-top: 40px;
     padding-right: 93px;
-
 }
-
 .b-pt {
     color: #FD511A;
     font-weight: 400;
 }
-
 .b-ht {
     font-size: 48px;
     font-weight: 700;
     line-height: 70px;
-
-
 }
-
 .b-ht span {
     color: #21B573;
     font-size: 48px;
     font-weight: 700;
     line-height: 70px;
 }
-
 .b-p1 {
     font-weight: 500;
     line-height: 36px;
-    width: 405px;
-    height: 85px;
+    width: 100%;
 }
-
 .btn-b {
     width: 153px;
     height: 43px;
     border: 1px solid #000;
 }
-
 .btn-b:hover {
     border: 1px solid #000;
 }
-
 .banner-img {
     margin-left: 38px;
     margin-top: 3px;
@@ -156,9 +125,6 @@ header {
     margin-bottom: 20px;
     width: 60px;
     height: 70px;
-  
-}
-.s_img img{
 }
 .s_h2{
     font-size: 24px;
@@ -170,12 +136,6 @@ header {
 }
 /* feature end */
 /* course start */
-.course{
-
-}
-.sm-padd{
-    
-}
 .c-title{
     font-size: 36px;
     font-style: normal;
@@ -190,21 +150,14 @@ header {
     overflow: hidden;
     margin: 60px 0 0;
 }
-.c-img{
-
-}
 .c-img img{
     border-radius: 11px;
-}
-.c-text{
-    
 }
 .ch2-text{
     margin: 20px 0 5px;
     color: #000000;
     font-size: 24px;
     line-height: 36px;
-
 }
 .cp-text{
     color: #585859;
@@ -217,15 +170,8 @@ header {
     height: 35px;
     margin: 0 0 35px;
 }
-
-.c-footer{
-
-}
 .cli:not(:last-child){
     margin-right: 5px;
-}
-.f-left ul li img, .f-right ul li img{
-    
 }
 .f-left ul li span, .f-right ul li span{
     color: #585859;
@@ -242,29 +188,16 @@ header {
 .t_img{
     margin-left: 50px;
 }
-.t_img img{
-}
-.t_text{}
-.t_text p{}
 /* Testimonial end */
-
-
 /* footer top start */
 .footer_top{
     background: #282531;
     padding: 55px 0 55px;
-
-}
-.ft-details {
-
 }
 .ft-details p{
     color: white;
     padding-right: 130px;
 }
-.ft-links{
-
-} 
 .ft-links h2{
     color: white;
     font-size: 18px;
@@ -292,33 +225,4 @@ header {
     color: #CDCDCD;
     line-height: 30px; 
 }
-
-
-
-
-
 /* footer end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
